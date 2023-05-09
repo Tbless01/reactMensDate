@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/reactMensDate/static/css/main.611b6696.css",
+    "main.js": "/reactMensDate/static/js/main.5bd178ad.js",
+    "static/js/787.2f772660.chunk.js": "/reactMensDate/static/js/787.2f772660.chunk.js",
+    "static/media/2asianWoman.jpg": "/reactMensDate/static/media/2asianWoman.5e4a309d789d966dafc5.jpg",
+    "static/media/3youngWomen.jpg": "/reactMensDate/static/media/3youngWomen.721f113ead751f81f4c6.jpg",
+    "static/media/main.jpeg": "/reactMensDate/static/media/main.b31807cb81ae767dcd58.jpeg",
+    "index.html": "/reactMensDate/index.html",
+    "main.611b6696.css.map": "/reactMensDate/static/css/main.611b6696.css.map",
+    "main.5bd178ad.js.map": "/reactMensDate/static/js/main.5bd178ad.js.map",
+    "787.2f772660.chunk.js.map": "/reactMensDate/static/js/787.2f772660.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.611b6696.css",
+    "static/js/main.5bd178ad.js"
+  ]
+}
