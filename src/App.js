@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from './pages/dashboard/components/Home';
+import MenstrualCycle from "../src/pages/dashboard/components/Menstruation";
+import Login from '../src/pages/authentications/login/components/login';
+import SignUp from '../../nw_react_app/src/pages/authentications/signup/components/signup';
+import{BrowserRouter, Routes, Route} from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home></Home>} ></Route>
+          <Route path='checkDate' element={<MenstrualCycle></MenstrualCycle>}></Route>
+          <Route path='SignIn' element={<Login></Login>}></Route>
+          <Route path='SignUp' element={<SignUp></SignUp>}></Route>
+        </Routes>
+      </BrowserRouter>
+    
   );
 }
 
