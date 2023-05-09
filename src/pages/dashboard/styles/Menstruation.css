@@ -275,13 +275,16 @@ font-size: 130%;
  }
 }
 
-@media screen and (max-width: 338px) {
+@media screen and (max-width: 368px) {
     .header{
     font-size: 80%;
 }
 .lastM{
     text-align: center;
 font-size: 100%;
+}
+.inputss{
+    margin-left: 10%;
 }
 .datee{
     padding-left: 5%;
@@ -296,5 +299,4 @@ font-size: 100%;
     font-size: 60%;
     margin-left: 10%;
  }
-
 }
