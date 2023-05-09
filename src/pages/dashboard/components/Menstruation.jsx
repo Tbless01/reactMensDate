@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import '../styles/Menstruation.css'
 import React, {Component} from 'react';
 
@@ -273,10 +272,10 @@ if(yearCyc>0 && !isNaN(cycleDays)){
             <nav className='top'>
         <label className='logo'>TB</label>
           <ul className='subtop'>   
-            <li><Link to='/' className='home'>Home</Link></li> 
+          <li><a href='#' className='home'>Home</Link></li> 
             <li><a href='#' className='feature'>Feature</a></li>
-            <li><Link to='/SignIn' className='signin'>SignIn</Link></li>
-            <li><Link to='/SignUp' className='singup'>SignUp</Link></li>
+            <li><a href='#' className='signin'>SignIn</Link></li>
+            <li><a href='#' className='singup'>SignUp</Link></li>
             <li><a href='https://semicolon.africa/about' target='_blank'  className='singup'>About</a></li>
           </ul>
       </nav>
