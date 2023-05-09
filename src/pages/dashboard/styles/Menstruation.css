@@ -166,7 +166,13 @@ box-shadow:  16px 16px 32px #5a5a5a,
 
 
 
-
+.logo{
+    text-shadow: 2px 8px 8px rgba(235, 236, 240, 0.6);
+    font-family:fantasy;
+    font-size: 35px;
+    margin: 4% 0 0 3%;
+    text-decoration: #E45453;
+}
 
 
 @media (max-width: 1250px)
