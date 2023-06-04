@@ -277,7 +277,7 @@ if(yearCyc>0 && !isNaN(cycleDays)){
           <div className='header'>
                  <div className='header2'>Menstrual period calculator</div>
                   </div>
-                    <div>   
+                    <div className='dothis'>   
                     <div className='lastM'><span>Last menstrual date: </span></div>
                     <div className="box">
                     <div className='inputss'>

@@ -78,6 +78,10 @@ span{
 .twoinputs{
     display: block;
 }
+.dothis{
+    margin-top: 30%;
+}
+
 
 .datee{
     border:solid 2px #554e4e;
