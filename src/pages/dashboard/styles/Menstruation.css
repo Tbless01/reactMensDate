@@ -1,5 +1,5 @@
 #container{
-    background-image: url("../../../assets/images/main.jpeg");
+    background-image: url("../../../assets/images/2asianWoman.jpg");
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -296,7 +296,25 @@ font-size: 100%;
         font-size: 72%;
     }
  .btncup{
-    font-size: 60%;
-    margin-left: 10%;
+    font-size: 66%;
+    margin-left: -7%;
+    width: 100%;
+    font-weight: 600;
  }
+}
+@media screen and (max-width: 290px) {
+    .btncup{
+        font-size: 64%;
+        margin-left: -5%;
+        width: 100%;
+        font-weight: 600;
+     }
+}
+@media screen and (max-width: 280px) {
+    .btncup{
+        font-size: 61%;
+        margin-left: -1%;
+        width: 100%;
+        font-weight: 600;
+     }
 }
